@@ -107,6 +107,27 @@ input[type="text"].questions-search.autocomplete {
     margin-left: inherit;
 }
 
+#projects-index ul.projects div.root a.project {
+    font-family: "sourcesanspro", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin: 0 0 10px;
+}
+#git_url_text,
+#clipboard_button, 
+#mirror_clipboard_button {
+    height: 25px;
+}
+#git_url_text {
+    min-width: 79%;
+}
+#clipboard_button, #mirror_clipboard_button {
+    width: 27px;
+}
+.git_hosting {
+    min-height: 112px;
+}
+
 /**********************************************************/
 /* HEADER */
 /**********************************************************/
