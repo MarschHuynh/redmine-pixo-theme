@@ -2,22 +2,6 @@
 @import url(../webfonts/sourcesansproCF/sourcesanspro.css);
 
 /**********************************************************/
-/* LOGO */
-/**********************************************************/
-
-#header > h1 {
-    background-image: url("../images/pixoflam-36.png");
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: rgba(0, 0, 0, 0);
-    background-image: url("../images/pixoflam-36.svg"), none;
-    background-origin: padding-box;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: 42px auto;
-}
-
-/**********************************************************/
 /* COMMON */
 /**********************************************************/
 
@@ -123,13 +107,25 @@ h2 {
     text-transform: uppercase;
     font-weight: 900;
     font-size: 36px;
-    line-height: 50px;
+    line-height: 100px;
     letter-spacing: 0.02em;
     padding: 0 0 0 55px;
     margin: 0;
+    background-image: url("../images/pixoflam-36.png");
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/pixoflam-36.svg"), none;
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 42px auto;
 }
-.controller-welcome  #header > h1 {
-    line-height: 100px;
+
+.controller-projects #header > h1 {
+    line-height: 50px;
+    font-size: 18px;
+    background-size: 21px auto;
 }
 
 #quick-search {
