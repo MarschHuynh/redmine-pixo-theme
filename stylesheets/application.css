@@ -118,7 +118,7 @@ input[type="text"].questions-search.autocomplete {
 .theme-Pixo #mirror_clipboard_button {
     height: 25px;
 }
-.theme-Pixo #git_url_text {
+.theme-Pixo #content #git_url_text {
     min-width: 79%;
 }
 .theme-Pixo #clipboard_button, 
