@@ -160,7 +160,8 @@ input[type="text"].questions-search.autocomplete {
     background-size: 42px auto;
 }
 
-.controller-projects #header > h1,
+.controller-projects.action-settings #header > h1,
+.controller-projects.action-show #header > h1,
 .controller-activities #header > h1,
 .controller-issues #header > h1,
 .controller-gantts #header > h1,
@@ -182,7 +183,8 @@ input[type="text"].questions-search.autocomplete {
 #quick-search #q {
     margin-left: 5px;
 }
-.controller-projects #quick-search,
+.controller-projects.action-settings #quick-search,
+.controller-projects.action-show #quick-search,
 .controller-activities #quick-search,
 .controller-issues #quick-search,
 .controller-gantts #quick-search,
