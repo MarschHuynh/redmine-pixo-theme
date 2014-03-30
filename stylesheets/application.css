@@ -178,6 +178,7 @@ input[type="text"].questions-search.autocomplete {
     color: #eee;
     padding: 4px 28px 4px 42px;
     font-size: 12px;
+    height: 30px;
 }
 
 #top-menu a {
