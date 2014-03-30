@@ -179,6 +179,9 @@ input[type="text"].questions-search.autocomplete {
 #quick-search {
     margin-top: 38px;
 }
+#quick-search #q {
+    margin-left: 5px;
+}
 .controller-projects #quick-search,
 .controller-activities #quick-search,
 .controller-issues #quick-search,
