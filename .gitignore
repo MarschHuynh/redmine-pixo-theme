@@ -24,6 +24,6 @@ config/secrets.yml
 .rvmrc
 
 # IDEs extensions
-*.tmpproj
+*.tmproj
 
 .DS_Store
