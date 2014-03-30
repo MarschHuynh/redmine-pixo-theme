@@ -6,8 +6,15 @@
 /**********************************************************/
 
 #header > h1 {
-    background: url(../images/pixoflam-36.png) no-repeat 5px 5px;
-    background-image: url(../images/pixoflam-36.svg), none;
+    background-image: url("../images/pixoflam-36.png");
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/pixoflam-36.svg"), none;
+    background-origin: padding-box;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 42px auto;
 }
 
 /**********************************************************/
@@ -115,11 +122,14 @@ h2 {
     font-family: "sourcesanspro", sans-serif;
     text-transform: uppercase;
     font-weight: 900;
-        font-size: 36px;Ò
-    line-height: 100px;
+    font-size: 36px;
+    line-height: 50px;
     letter-spacing: 0.02em;
     padding: 0 0 0 55px;
     margin: 0;
+}
+.controller-welcome  #header > h1 {
+    line-height: 100px;
 }
 
 #quick-search {
