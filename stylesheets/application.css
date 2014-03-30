@@ -8,13 +8,25 @@
 body {
     color: #15374b;
     font-size: 14px;
-    line-height: 1.3;
+    line-height: 1.5;
     /*font-family: "helvetica neue",helvetica,arial,sans-serif;*/
     font-family: "sourcesanspro", sans-serif;
     font-smoothing: antialiased;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+    font-family: "sourcesanspro", sans-serif;
+    margin: 0 0 10px;
+    padding: 2px 10px 1px 0;
+    font-weight: 200;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 10px;
 }
 
 input, textarea, select {
@@ -31,7 +43,7 @@ a:hover, a:focus {
 
 #main {
     background-color: #fafafa;
-    padding: 0px 20px;
+    padding: 0px 40px;
 }
 
 #main.nosidebar {
@@ -39,18 +51,19 @@ a:hover, a:focus {
 }
 
 div#content {
-    margin-left: -20px;
+    margin-left: -40px;
     padding-left: 25px;
-  padding-top: 15px;
+    padding-top: 15px;
 }
 
 #footer {
     margin-bottom: 12px;
     padding-top: 18px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 40px;
+    padding-right: 49px;
     border-top: 1px solid #e0e2e3;
     color: #ced4d9;
+    font-weight: 300;
 }
 
 #footer a, #footer a:visited {
@@ -75,12 +88,6 @@ input[type="text"].questions-search.autocomplete {
 
 input[type="text"].questions-search.autocomplete {
     padding-left: 30px !important;
-}
-
-h2 {
-    font-size: 25px;
-    font-weight: normal;
-    margin-top: 10px;
 }
 
 #sidebar a.selected {
@@ -122,35 +129,74 @@ h2 {
     background-size: 42px auto;
 }
 
-.controller-projects #header > h1 {
+.controller-projects #header > h1,
+.controller-activities #header > h1,
+.controller-issues #header > h1,
+.controller-gantts #header > h1,
+.controller-calendars #header > h1,
+.controller-news #header > h1,
+.controller-documents #header > h1,
+.controller-wiki #header > h1,
+.controller-files #header > h1,
+.controller-repositories #header > h1 {
     line-height: 50px;
     font-size: 18px;
     background-size: 21px auto;
+    padding-left: 30px;
 }
 
 #quick-search {
-    margin-top: 10px;
+    margin-top: 38px;
+}
+.controller-projects #quick-search,
+.controller-activities #quick-search,
+.controller-issues #quick-search,
+.controller-gantts #quick-search,
+.controller-calendars #quick-search,
+.controller-news #quick-search,
+.controller-documents #quick-search,
+.controller-wiki #quick-search,
+.controller-files #quick-search,
+.controller-repositories #quick-search {
+    margin-top: 11px;
 }
 
 /**********************************************************/
 /* TOP-MENU */
 /**********************************************************/
 #top-menu {
-    background: #000;
-    padding: 7px 20px 2px 25px;
-    font-size: 0.9em;
+    background: #054368;
+    color: #eee;
+    padding: 4px 28px 4px 42px;
+    font-size: 12px;
 }
 
 #top-menu a {
     margin-right: 15px;
     font-weight: normal;
-    color: #9da2a6;
+    color: #eee;
 }
 
 #top-menu a:hover {
     color: #fff;
     text-decoration: none;
 }
+
+#top-menu #loggedas {
+    color: #eee;
+    float: right;
+    margin-right: 0;
+    margin-top: 2px;
+    font-style: italic;
+}
+
+#top-menu #loggedas a {
+    margin-left: 5px;
+    font-style: italic;
+    font-weight: 600;
+    color: #fff;
+}
+
 /**********************************************************/
 /* MAIN-MENU */
 /**********************************************************/
@@ -159,13 +205,14 @@ h2 {
     left: 0px;
     width: 100%;
     height: 51px;
-    background-color: #3d454c;
-    font-weight: 500;
+    background-color: #33a0e2;
+    color: #054368;
+    font-weight: 600;
     overflow: hidden;
 }
 
 #main-menu ul {
-    padding: 0 15px;
+    padding: 0 30px;
 }
 
 #main-menu li {
@@ -174,25 +221,25 @@ h2 {
 }
 
 #main-menu li > a {
-    color: #9da2a6;
+    color: #054368;
 }
 
 
 #main-menu li a:hover, #main-menu li a.selected, #main-menu li a.selected:hover {
     background: none;
-    color: #fff;
+    color: #000;
 }
 
 /**********************************************************/
 /* SIDEBAR */
 /**********************************************************/
 #sidebar {
-    line-height:1.3;
+    line-height: 1.3;
 }
 
 #sidebar h3 {
-    font-size:16px;
-    font-weight: normal;
+    font-size: 18px;
+    font-weight: 200;
     margin-top: 20px;
     margin-bottom: 5px;
     color: #666;
