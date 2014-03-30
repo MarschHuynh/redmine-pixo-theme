@@ -36,7 +36,7 @@ body {
 }
 
 input, textarea, select {
-	font-family: "helvetica neue",helvetica,arial,sans-serif;
+	font-family: "sourcesanspro", sans-serif;
 	font-size: 12px;
 }
 
@@ -118,9 +118,10 @@ h2 {
 }
 
 #header > h1 {
-	font-family: "helvetica neue",helvetica,arial,sans-serif;
+/*  font-family: "helvetica neue",helvetica,arial,sans-serif;*/
+	font-family: "sourcesanspro", sans-serif;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 900;
 	font-size: 13px;
 	letter-spacing: 1px;
 	padding: 17px 10px 30px 55px;
@@ -316,7 +317,8 @@ div.tooltip:hover span.tip {
 /* jQuery UI */
 /**********************************************************/
 .ui-widget, .ui-widget input, .ui-widget select, .ui-widget textarea, .ui-widget button {
-	font-family: "SqMarket","helvetica neue",helvetica,arial,sans-serif;
+/*  font-family: "SqMarket","helvetica neue",helvetica,arial,sans-serif;*/
+	font-family: "sourcesanspro", sans-serif;
 	font-size: 1em;
 }
 
