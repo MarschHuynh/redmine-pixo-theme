@@ -119,7 +119,7 @@ input[type="text"].questions-search.autocomplete {
     height: 25px;
 }
 .theme-Pixo #content #git_url_text {
-    min-width: 79%;
+    min-width: 69%;
 }
 .theme-Pixo #clipboard_button, 
 .theme-Pixo #mirror_clipboard_button {
@@ -170,7 +170,10 @@ input[type="text"].questions-search.autocomplete {
 .controller-documents #header > h1,
 .controller-wiki #header > h1,
 .controller-files #header > h1,
-.controller-repositories #header > h1 {
+.controller-repositories #header > h1,
+.controller-boards #header > h1,
+.controller-issue_categories > h1,
+.controller-versions > h1 {
     line-height: 50px;
     font-size: 20px;
     background-size: 21px auto;
@@ -193,7 +196,10 @@ input[type="text"].questions-search.autocomplete {
 .controller-documents #quick-search,
 .controller-wiki #quick-search,
 .controller-files #quick-search,
-.controller-repositories #quick-search {
+.controller-repositories #quick-search,
+.controller-boards #quick-search,
+.controller-issue_categories #quick-search,
+.controller-versions #quick-search {
     margin-top: 11px;
 }
 
